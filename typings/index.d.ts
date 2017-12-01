@@ -1,3 +1,6 @@
+/// <reference types="sanitize-html" />
+/// <reference types="DOMPurify" />
+
 export namespace SchemaHtml {
   type Options = {
     sanitizehtml: OptionsSanitizeHtml,
