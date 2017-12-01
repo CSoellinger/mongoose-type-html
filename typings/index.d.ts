@@ -1,4 +1,4 @@
-/// <reference types="sanitize-html" />
+/// <reference path="./sanitize-html.d.ts" />
 /// <reference types="DOMPurify" />
 
 export namespace SchemaHtml {
