@@ -1,6 +1,6 @@
 {
   "name": "mongoose-type-html",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An html field-type with sanitize-html and dompurify options",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
