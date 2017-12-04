@@ -16,7 +16,7 @@
     ],
     "sourceMap": true,
     "pretty": true,
-    "removeComments": true,
+    "removeComments": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowJs": false,
@@ -28,12 +28,9 @@
       "typings"
     ]
   },
-  "files": [
-    "src/index.ts",
-    "typings/index.d.ts",
-    "typings/kind-of.d.ts",
-    "typings/mongoose.d.ts",
-    "typings/sanitize-html.d.ts"
+  "include": [
+    "src/**/*.ts",
+    "typings/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"
