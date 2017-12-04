@@ -22,8 +22,10 @@ var UserSchema = new mongoose.Schema({
 var UserSchema = new mongoose.Schema({
     description: {
         type: mongoose.SchemaTypes.Html,
-        dompurify: true, // You can pass an object with dompurify config too. True uses default options.
-        sanitizehtml: true // You can pass an object with sanitizehtml config too. True uses default options.
+        // You can pass an object with dompurify config too. True uses default options.
+        dompurify: true,
+        // You can pass an object with sanitizehtml config too. True uses default options.
+        sanitizehtml: true
     }
 });
 ```
