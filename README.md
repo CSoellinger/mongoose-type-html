@@ -3,7 +3,7 @@
 An html field-type for Mongoose schemas. The field type can use [DOMPurify](https://github.com/cure53/DOMPurify) and [Sanitize-HTML](https://github.com/punkave/sanitize-html) for casting HTML values. At default only [DOMPurify](https://github.com/cure53/DOMPurify) is enabled with default options. You can easily disable or change the options from both. To know which options you can use visit their github pages and take a look there.
 
 [![npm](https://nodei.co/npm/mongoose-type-html.png)](https://www.npmjs.com/package/mongoose-type-html)
-[![Build Status](https://travis-ci.org/CSoellinger/mongoose-type-html.svg?branch=master)](https://travis-ci.org/konsumer/mongoose-type-html)
+<!-- [![Build Status](https://travis-ci.org/CSoellinger/mongoose-type-html.svg?branch=master)](https://travis-ci.org/konsumer/mongoose-type-html) -->
 
 ## usage
 
