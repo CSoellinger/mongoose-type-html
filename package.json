@@ -68,7 +68,7 @@
     "@types/sanitize-html": "^1.14.0",
     "dompurify": "*",
     "jsdom": "^11.5.1",
-    "mongoose": "4.13.17",
+    "mongoose": "5.7.5",
     "sanitize-html": "*"
   },
   "nyc": {
